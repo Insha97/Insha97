@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HelpMe Sign Up</title>
+  <style>
+    /* CSS omitted for brevity */
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>HelpMe</h1> <!-- Main header clearly identifies the application -->
+    </header>
+    
+    <main>
+      <p class="subtext">Let's get started!</p> <!-- Clear and motivational call to action -->
+      <button class="signup-btn" aria-label="Sign up for HelpMe">Sign up</button>
+      <!-- Descriptive button with accessible label for screen readers -->
+      <p class="login-text">already have an account? 
+        <a href="#" class="login-link" aria-label="Login to your account">Login</a>
+      </p>
+    </main>
+    
+    <footer>
+      <!-- Additional footer content can go here, like links to privacy policy or contact information -->
+    </footer>
+  </div>
+</body>
+</html>
